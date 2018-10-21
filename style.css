@@ -38,7 +38,7 @@ header{
 
 #cabezera ul{
     list-style-type: none;
-    margin: 60px 0;
+    margin-top: 60px;
     padding: 0;
     display: flex;
     justify-content: space-around;
