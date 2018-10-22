@@ -152,7 +152,7 @@ a{
     color: rgb(148, 148, 148);
 }
 
-#c #tarjetas{
+#c .tarjetas{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,7 +188,7 @@ a{
     min-height: 500px;
 }
 
-#d #mapa{
+#d .mapa{
     grid-area: mapa;
     display: flex;
     align-items: center;
@@ -203,10 +203,10 @@ a{
     flex-flow: column wrap;
     width: 90%;
     justify-self: center;
-    min-height: 400px;
+    min-height: 450px;
 }
 
-#d p#titulo1{
+#d p.titulo1{
     margin: 0;
     font-size: 2em;
     letter-spacing: 10px;
@@ -215,7 +215,7 @@ a{
     text-align: center;
 }
 
-#d p#titulo2{
+#d p.titulo2{
     margin: 0;
     font-size: 3.5em;
     letter-spacing: 20px;
@@ -231,11 +231,42 @@ a{
     margin: 50px 0px;
 }
 
+#e{
+    grid-area: e;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
 
+#e img{
+    width: 400px;
+    margin-top: 50px;
+}
+
+#e .titulo{
+    margin: 0;
+    font-size: 1.7em;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    justify-self: center center;
+    text-align: center;
+    color: rgb(148, 148, 148);
+    margin-bottom: 50px;
+}
 
 footer{
     grid-area: footer;
     background-image: linear-gradient(to right, #9500FC , #03F3FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 150px;
+}
+footer img{
+    width: 100px;
 }
 
 
