@@ -69,6 +69,7 @@ footer{
     font-size: 2em;
     letter-spacing: 10px;
     word-spacing: 10px;
+    text-align: center;
 }
 
 #b{
@@ -88,7 +89,7 @@ footer{
 }
 
 #b .contenedor{
-    width: 700px;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +103,7 @@ footer{
     word-spacing: 10px;
     justify-self: center center;
     text-align: center;
-    width: 350px;
+    width: 260px;
     margin: 50px 0px;
 }
 
@@ -133,6 +134,35 @@ img {
 
 h1,h2,h3,h4,h5,h6{
     font-weight: 800;
+}
+
+
+/* Small Screens*/
+@media(max-width: 1200px){
+    #cabezera nav{
+        width: 80%;
+    }
+}
+
+/* Small Screens*/
+@media(max-width: 1000px){
+    #cabezera nav{
+        width: 90%;
+    }
+}
+
+/* Small Screens*/
+@media(max-width: 800px){
+    #cabezera nav{
+        width: 95%;
+    }
+}
+
+/* Small Screens*/
+@media(max-width: 700px){
+    #cabezera nav{
+        display: none;
+    }
 }
 
 /* Small Screens*/
