@@ -106,6 +106,10 @@ footer{
     margin: 50px 0px;
 }
 
+#b p.Contenido{
+    text-align: justify;
+}
+
 #b a{
     margin: 50px 0px;
     background-color: #03F3FF; /* Green */
