@@ -1,7 +1,5 @@
 body{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-areas: 
     "header"
     "a"
@@ -84,7 +82,8 @@ footer{
     justify-content: center;
     flex-flow: column wrap;
     margin-top: 40px;
-    background-image: url(images/azul.jpg);
+    background-color: #34A2FE;
+    background-image: url(images/lineas.png);
     background-origin:border-box;
     background-repeat:no-repeat;
     background-position:center center;
@@ -177,11 +176,7 @@ a{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto; 
     margin-top: 40px;
-    background-image: url(images/violeta.jpg);
-    background-origin:border-box;
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size:cover;
+    background-color: #9500FC;
     color:white;
     grid-template-areas: 
     "mapa contenedor";
