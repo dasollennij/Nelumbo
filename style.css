@@ -1,3 +1,31 @@
+:root {
+    --ff: 'Montserrat', sans-serif;
+    
+    --fw-n: 400;
+    --fw-b: 800;
+    
+    --fs-2: 5rem;
+    --fs-p: 0.9rem;
+    
+    --primary-clr: #03F3FF;
+    --primary-clr-op: rgb(3, 243, 255,0.85);
+    --primary-clr-dark: #34A2FE;
+    --secondary-clr: #9500FC;
+    --accent-clr: #EF6461;
+  
+    --spacer: 1rem;
+    --spacer-md: calc(var(--spacer) * 2);
+    --spacer-lg: calc(var(--spacer) * 3);
+    
+    --shadow: 0 0 1em rgba(0,0,0, .25);
+    --br: 5px;
+    
+  }
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     display: grid;
     grid-template-areas: 
@@ -8,8 +36,8 @@ body{
     "d"
     "e"
     "footer";
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: var(--ff);
+    font-weight: var(--fw-n);
     margin: 0;
 }
 
@@ -54,7 +82,6 @@ header{
 
 footer{
     grid-area:footer;
-    font-size: 2rem;
 }
 
 #a{
@@ -82,7 +109,7 @@ footer{
     justify-content: center;
     flex-flow: column wrap;
     margin-top: 40px;
-    background-color: #34A2FE;
+    background-color: var(--primary-clr-dark);
     background-image: url(images/lineas.png);
     background-origin:border-box;
     background-repeat:no-repeat;
@@ -121,14 +148,19 @@ footer{
 }
 
 a{
-    background-color: #03F3FF; /* Green */
-    border: 1px solid #03F3FF;;
+    background-color: var(--primary-clr); /* Green */
+    border: 1px solid var(--primary-clr);;
     color: #546CFD;
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
     font-size: 1.2em;
     border-radius: 50px;
+}
+
+a:hover{
+    background-color: var(--primary-clr-op);
+    border-color: var(--primary-clr-op);
 }
 
 #c{
@@ -176,7 +208,7 @@ a{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto; 
     margin-top: 40px;
-    background-color: #9500FC;
+    background-color: var(--secondary-clr);
     color:white;
     grid-template-areas: 
     "mapa contenedor";
@@ -253,7 +285,7 @@ a{
 
 footer{
     grid-area: footer;
-    background-image: linear-gradient(to right, #9500FC , #03F3FF);
+    background-image: linear-gradient(to right, var(--secondary-clr) , var(--primary-clr));
     display: flex;
     align-items: center;
     justify-content: center;
