@@ -212,7 +212,7 @@ header{
   width: 200px;
   height: 120px;
   position: relative;
-  background: url('images/Icono solito-14.png') no-repeat center center/cover;
+  background: url('images/Iconosolito-14.png') no-repeat center center/cover;
   z-index: 100;
 }
 
@@ -226,7 +226,7 @@ header{
   left: 0;
   opacity: 0;
   z-index: -100;
-  background: url('images/Icono solito-15.png') no-repeat center center/cover;
+  background: url('images/Iconosolito-15.png') no-repeat center center/cover;
   animation: logo 3s ease-in-out infinite forwards;
 }
 
